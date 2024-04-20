@@ -70,7 +70,7 @@ const Contact = () => {
   const handleBlur = () => setCurrentAnimation('idle');
 
   return (
-    <section className="max-container h-vh relative flex flex-col lg:flex-row">
+    <section className="max-container relative flex h-[100vh] flex-col lg:flex-row">
       {alert.show && <Alert {...alert} />}
       <div className="flex min-w-[50%] flex-1 flex-col">
         <h1 className="head-text">Get in touch</h1>
