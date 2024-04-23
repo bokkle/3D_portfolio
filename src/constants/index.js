@@ -24,18 +24,49 @@ import {
   tailwindcss,
   threads,
   typescript,
+  solidity,
 } from '../assets/icons';
 
 export const skills = [
+  {
+    imageUrl: html,
+    name: 'HTML',
+    type: 'Frontend',
+  },
   {
     imageUrl: css,
     name: 'CSS',
     type: 'Frontend',
   },
   {
-    imageUrl: express,
-    name: 'Express',
+    imageUrl: javascript,
+    name: 'JavaScript',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: react,
+    name: 'React',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: tailwindcss,
+    name: 'Tailwind CSS',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: redux,
+    name: 'Redux',
+    type: 'State Management',
+  },
+  {
+    imageUrl: nodejs,
+    name: 'Node.js',
     type: 'Backend',
+  },
+  {
+    imageUrl: solidity,
+    name: 'Solidity',
+    type: 'Smart Contracts',
   },
   {
     imageUrl: git,
@@ -46,16 +77,6 @@ export const skills = [
     imageUrl: github,
     name: 'GitHub',
     type: 'Version Control',
-  },
-  {
-    imageUrl: html,
-    name: 'HTML',
-    type: 'Frontend',
-  },
-  {
-    imageUrl: javascript,
-    name: 'JavaScript',
-    type: 'Frontend',
   },
   {
     imageUrl: mongodb,
@@ -77,42 +98,12 @@ export const skills = [
     name: 'Next.js',
     type: 'Frontend',
   },
-  {
-    imageUrl: nodejs,
-    name: 'Node.js',
-    type: 'Backend',
-  },
-  {
-    imageUrl: react,
-    name: 'React',
-    type: 'Frontend',
-  },
-  {
-    imageUrl: redux,
-    name: 'Redux',
-    type: 'State Management',
-  },
-  {
-    imageUrl: sass,
-    name: 'Sass',
-    type: 'Frontend',
-  },
-  {
-    imageUrl: tailwindcss,
-    name: 'Tailwind CSS',
-    type: 'Frontend',
-  },
-  {
-    imageUrl: typescript,
-    name: 'TypeScript',
-    type: 'Frontend',
-  },
 ];
 
 export const experiences = [
   {
     title: 'React.js Developer',
-    company_name: 'Starbucks',
+    company_name: 'Roseway',
     icon: starbucks,
     iconBg: '#accbe1',
     date: 'March 2020 - April 2021',
